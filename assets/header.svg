@@ -10,12 +10,12 @@
 <rect width="900" height="300" fill="url(#vig)"/>
 <rect x="0" y="0" width="900" height="300" fill="url(#scan)"/>
 <g filter="url(#glow)">
-<text x="450" y="150" text-anchor="middle" font-size="64" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41">REZA_EM</text>
+<text x="450" y="150" text-anchor="middle" font-size="64" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41">REZA-EM</text>
 </g>
-<text x="450" y="150" text-anchor="middle" font-size="64" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#ff003c" opacity="0"><tspan>REZA_EM</tspan>
+<text x="450" y="150" text-anchor="middle" font-size="64" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#ff003c" opacity="0"><tspan>REZA-EM</tspan>
  <animate attributeName="opacity" values="0;0;.8;0;.8;0;0" keyTimes="0;.88;.90;.92;.94;.96;1" dur="4s" repeatCount="indefinite"/>
  <animateTransform attributeName="transform" type="translate" values="0 0;0 0;-6 0;4 -2;-3 2;0 0;0 0" keyTimes="0;.88;.90;.92;.94;.96;1" dur="4s" repeatCount="indefinite"/></text>
-<text x="450" y="150" text-anchor="middle" font-size="64" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00e5ff" opacity="0"><tspan>REZA_EM</tspan>
+<text x="450" y="150" text-anchor="middle" font-size="64" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00e5ff" opacity="0"><tspan>REZA-EM</tspan>
  <animate attributeName="opacity" values="0;0;.8;0;.8;0;0" keyTimes="0;.88;.91;.93;.95;.97;1" dur="4s" repeatCount="indefinite"/>
  <animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 1;-4 2;3 -2;0 0;0 0" keyTimes="0;.88;.91;.93;.95;.97;1" dur="4s" repeatCount="indefinite"/></text>
 <text x="450" y="182" text-anchor="middle" font-size="15" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#7dffa0" letter-spacing="6">[ BOT BUILDER · AUTOMATION · DEVOPS ]</text>
