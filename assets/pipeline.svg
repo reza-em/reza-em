@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220">
+<defs><filter id="g2" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="900" height="220" fill="#050805" rx="10"/>
+<text x="20" y="30" font-size="14" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#4aa860">// ci/cd pipeline :: push → build → test → deploy</text>
+<line x1="105.0" y1="105.0" x2="793.0" y2="105.0" stroke="#12351c" stroke-width="3" stroke-dasharray="6 6"/><line x1="105.0" y1="105.0" x2="793.0" y2="105.0" stroke="#00ff41" stroke-width="3" stroke-dasharray="688" stroke-dashoffset="688"><animate attributeName="stroke-dashoffset" values="688;0;0;688" keyTimes="0;.7;.95;1" dur="10s" repeatCount="indefinite"/></line><g>
+<rect x="40" y="70" width="130" height="70" rx="8" fill="#07110a" stroke="#1d5c2b" stroke-width="2">
+<animate attributeName="stroke" values="#1d5c2b;#1d5c2b;#00ff41;#00ff41;#1d5c2b" keyTimes="0;0.00;0.04;.95;1" dur="10s" repeatCount="indefinite"/>
+<animate attributeName="fill" values="#07110a;#07110a;#0b3a18;#0b3a18;#07110a" keyTimes="0;0.00;0.04;.95;1" dur="10s" repeatCount="indefinite"/></rect>
+<text x="105.0" y="100" text-anchor="middle" font-size="19" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41">git push</text>
+<text x="105.0" y="122" text-anchor="middle" font-size="12" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#7dffa0">commit</text>
+<text x="105.0" y="170" text-anchor="middle" font-size="16" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41" opacity="0">✔ passed<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.00;0.04;.95;1" dur="10s" repeatCount="indefinite"/></text>
+<circle cx="158" cy="82" r="5" fill="#ffb000"><animate attributeName="fill" values="#ffb000;#ffb000;#00ff41;#00ff41;#ffb000" keyTimes="0;0.00;0.04;.95;1" dur="10s" repeatCount="indefinite"/></circle>
+</g><g>
+<rect x="212" y="70" width="130" height="70" rx="8" fill="#07110a" stroke="#1d5c2b" stroke-width="2">
+<animate attributeName="stroke" values="#1d5c2b;#1d5c2b;#00ff41;#00ff41;#1d5c2b" keyTimes="0;0.14;0.18;.95;1" dur="10s" repeatCount="indefinite"/>
+<animate attributeName="fill" values="#07110a;#07110a;#0b3a18;#0b3a18;#07110a" keyTimes="0;0.14;0.18;.95;1" dur="10s" repeatCount="indefinite"/></rect>
+<text x="277.0" y="100" text-anchor="middle" font-size="19" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41">build</text>
+<text x="277.0" y="122" text-anchor="middle" font-size="12" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#7dffa0">docker image</text>
+<text x="277.0" y="170" text-anchor="middle" font-size="16" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41" opacity="0">✔ passed<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.14;0.18;.95;1" dur="10s" repeatCount="indefinite"/></text>
+<circle cx="330" cy="82" r="5" fill="#ffb000"><animate attributeName="fill" values="#ffb000;#ffb000;#00ff41;#00ff41;#ffb000" keyTimes="0;0.14;0.18;.95;1" dur="10s" repeatCount="indefinite"/></circle>
+</g><g>
+<rect x="384" y="70" width="130" height="70" rx="8" fill="#07110a" stroke="#1d5c2b" stroke-width="2">
+<animate attributeName="stroke" values="#1d5c2b;#1d5c2b;#00ff41;#00ff41;#1d5c2b" keyTimes="0;0.28;0.32;.95;1" dur="10s" repeatCount="indefinite"/>
+<animate attributeName="fill" values="#07110a;#07110a;#0b3a18;#0b3a18;#07110a" keyTimes="0;0.28;0.32;.95;1" dur="10s" repeatCount="indefinite"/></rect>
+<text x="449.0" y="100" text-anchor="middle" font-size="19" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41">test</text>
+<text x="449.0" y="122" text-anchor="middle" font-size="12" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#7dffa0">lint · pytest</text>
+<text x="449.0" y="170" text-anchor="middle" font-size="16" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41" opacity="0">✔ passed<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.32;.95;1" dur="10s" repeatCount="indefinite"/></text>
+<circle cx="502" cy="82" r="5" fill="#ffb000"><animate attributeName="fill" values="#ffb000;#ffb000;#00ff41;#00ff41;#ffb000" keyTimes="0;0.28;0.32;.95;1" dur="10s" repeatCount="indefinite"/></circle>
+</g><g>
+<rect x="556" y="70" width="130" height="70" rx="8" fill="#07110a" stroke="#1d5c2b" stroke-width="2">
+<animate attributeName="stroke" values="#1d5c2b;#1d5c2b;#00ff41;#00ff41;#1d5c2b" keyTimes="0;0.42;0.46;.95;1" dur="10s" repeatCount="indefinite"/>
+<animate attributeName="fill" values="#07110a;#07110a;#0b3a18;#0b3a18;#07110a" keyTimes="0;0.42;0.46;.95;1" dur="10s" repeatCount="indefinite"/></rect>
+<text x="621.0" y="100" text-anchor="middle" font-size="19" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41">deploy</text>
+<text x="621.0" y="122" text-anchor="middle" font-size="12" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#7dffa0">bot goes live</text>
+<text x="621.0" y="170" text-anchor="middle" font-size="16" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41" opacity="0">✔ passed<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.46;.95;1" dur="10s" repeatCount="indefinite"/></text>
+<circle cx="674" cy="82" r="5" fill="#ffb000"><animate attributeName="fill" values="#ffb000;#ffb000;#00ff41;#00ff41;#ffb000" keyTimes="0;0.42;0.46;.95;1" dur="10s" repeatCount="indefinite"/></circle>
+</g><g>
+<rect x="728" y="70" width="130" height="70" rx="8" fill="#07110a" stroke="#1d5c2b" stroke-width="2">
+<animate attributeName="stroke" values="#1d5c2b;#1d5c2b;#00ff41;#00ff41;#1d5c2b" keyTimes="0;0.56;0.60;.95;1" dur="10s" repeatCount="indefinite"/>
+<animate attributeName="fill" values="#07110a;#07110a;#0b3a18;#0b3a18;#07110a" keyTimes="0;0.56;0.60;.95;1" dur="10s" repeatCount="indefinite"/></rect>
+<text x="793.0" y="100" text-anchor="middle" font-size="19" font-weight="bold" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41">live</text>
+<text x="793.0" y="122" text-anchor="middle" font-size="12" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#7dffa0">uptime 99.9%</text>
+<text x="793.0" y="170" text-anchor="middle" font-size="16" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#00ff41" opacity="0">✔ passed<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.56;0.60;.95;1" dur="10s" repeatCount="indefinite"/></text>
+<circle cx="846" cy="82" r="5" fill="#ffb000"><animate attributeName="fill" values="#ffb000;#ffb000;#00ff41;#00ff41;#ffb000" keyTimes="0;0.56;0.60;.95;1" dur="10s" repeatCount="indefinite"/></circle>
+</g><circle r="7" fill="#d8ffe0" filter="url(#g2)"><animateMotion path="M 105.0 105.0 L 793.0 105.0" dur="7.0s" begin="0s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.69;.7;1" dur="7.0s" repeatCount="indefinite"/></circle>
+<text x="20" y="208" font-size="12" font-family="'JetBrains Mono','Fira Code','DejaVu Sans Mono',Consolas,monospace" fill="#4aa860">status: <tspan fill="#00ff41">all systems operational</tspan><animate attributeName="opacity" values="1;.4;1" dur="2s" repeatCount="indefinite"/></text>
+<rect x="1" y="1" width="898" height="218" rx="10" fill="none" stroke="#00ff41" stroke-opacity=".4"/>
+</svg>
